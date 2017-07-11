@@ -1,0 +1,4 @@
+<declaration>::=<type><var-list>
+<type>::="int"|"float"
+<var-list>::="identifier"<part>
+<part>::=","<var-list>|""

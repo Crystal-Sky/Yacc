@@ -1,0 +1,5 @@
+<lexp>::=<atom>|<list>
+<atom>::="number"|"identifier"
+<list>::="("<lexp-seq>")"
+<lexp-seq>::=<lexp><part>
+<part>::=","<lexp-seq>|""
